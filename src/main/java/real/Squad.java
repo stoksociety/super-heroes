@@ -1,7 +1,7 @@
 package real;
 
 import java.util.ArrayList;
-
+//class
 public class Squad {
     private String squadName;
     private String squadSize;
@@ -9,7 +9,7 @@ public class Squad {
 
     private static ArrayList<Squad> listOfSquads = new ArrayList<Squad>();
     private int id;
-
+//method
     public Squad(String squadName, String squadSize, String squadCause) {
         this.squadName = squadName;
         this.squadSize = squadSize;
